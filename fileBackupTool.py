@@ -18,7 +18,7 @@ class BackupSystem:
             ]
         )
 
-    # Create backup directory if it doesn't exist
+        # Create backup directory if it doesn't exist
         self.backup_directory.mkdir(parents=True, exist_ok=True)
         
         # Initialize or load backup history
